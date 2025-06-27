@@ -113,64 +113,81 @@
 <br>
 
 <div align="center">
-  <table style="
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 20px;
-    margin: 0 auto;
-  ">
+  <table>
     <tr>
-      <!-- Frontend -->
-      <td style="
-        text-align: center;
-        transition: all 0.3s ease;
-        padding: 20px;
-        background: rgba(0,170,255,0.05);
-        border-radius: 10px;
-      " onmouseover="this.style.transform='scale(1.05)'; this.style.filter='drop-shadow(0 0 10px #00AAFF)'" 
-      onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
-        <img src="https://skillicons.dev/icons?i=html,css,js,ts" style="height: 40px; margin-bottom: 8px;"/>
-        <h3 style="color: #00AAFF; margin: 5px 0;">Frontend</h3>
-        <p style="margin: 0; color:rgb(105, 105, 105);">HTML5, CSS3, JavaScript, TypeScript</p>
+      <!-- HTML5 -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5 Icon" />
+        <br>HTML5
       </td>
-      <!-- Frameworks -->
-      <td style="
-        text-align: center;
-        transition: all 0.3s ease;
-        padding: 20px;
-        background: rgba(127,90,182,0.05);
-        border-radius: 10px;
-      " onmouseover="this.style.transform='scale(1.05)'; this.style.filter='drop-shadow(0 0 10px #7F5AB6)'" 
-      onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
-        <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap" style="height: 40px; margin-bottom: 8px;"/>
-        <h3 style="color: #7F5AB6; margin: 5px 0;">Frameworks</h3>
-        <p style="margin: 0; color: rgb(105, 105, 105);">React, Next.js, Tailwind, Bootstrap</p>
+      <!-- CSS3 -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS3 Icon" />
+        <br>CSS3
       </td>
-      <!-- Backend -->
-      <td style="
-        text-align: center;
-        transition: all 0.3s ease;
-        padding: 20px;
-        background: rgba(51,153,51,0.05);
-        border-radius: 10px;
-      " onmouseover="this.style.transform='scale(1.05)'; this.style.filter='drop-shadow(0 0 10px #339933)'" 
-      onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
-        <img src="https://skillicons.dev/icons?i=nodejs,nestjs" style="height: 40px; margin-bottom: 8px;"/>
-        <h3 style="color: #339933; margin: 5px 0;">Backend</h3>
-        <p style="margin: 0; color: rgb(105, 105, 105);">Node.js, Nest.js</p>
+      <!-- JavaScript -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript Icon" />
+        <br>JavaScript
       </td>
-      <!-- Tools -->
-      <td style="
-        text-align: center;
-        transition: all 0.3s ease;
-        padding: 20px;
-        background: rgba(255,107,107,0.05);
-        border-radius: 10px;
-      " onmouseover="this.style.transform='scale(1.05)'; this.style.filter='drop-shadow(0 0 10px #FF6B6B)'" 
-      onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
-        <img src="https://skillicons.dev/icons?i=git,github,vscode,figma" style="height: 40px; margin-bottom: 8px;"/>
-        <h3 style="color: #FF6B6B; margin: 5px 0;">Tools</h3>
-        <p style="margin: 0; color: rgb(105, 105, 105);">Git, GitHub, VSCode, Figma</p>
+      <!-- TypeScript -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript Icon" />
+        <br>TypeScript
+      </td>
+      <!-- React -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React Icon" />
+        <br>React
+      </td>
+    </tr>
+    <tr>
+      <!-- Next.js -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js Icon" />
+        <br>Next.js
+      </td>
+      <!-- Tailwind -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind Icon" />
+        <br>Tailwind
+      </td>
+      <!-- Bootstrap -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=bootstrap" width="48" height="48" alt="Bootstrap Icon" />
+        <br>Bootstrap
+      </td>
+      <!-- Node.js -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js Icon" />
+        <br>Node.js
+      </td>
+      <!-- Nest.js -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=nestjs" width="48" height="48" alt="Nest.js Icon" />
+        <br>Nest.js
+      </td>
+    </tr>
+    <tr>
+      <!-- Git -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git Icon" />
+        <br>Git
+      </td>
+      <!-- GitHub -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub Icon" />
+        <br>GitHub
+      </td>
+      <!-- VSCode -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VSCode Icon" />
+        <br>VSCode
+      </td>
+      <!-- Figma -->
+      <td align="center" width="96">
+        <img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma Icon" />
+        <br>Figma
       </td>
     </tr>
   </table>
