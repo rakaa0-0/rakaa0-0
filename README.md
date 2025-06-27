@@ -230,189 +230,201 @@
   </div> -->
   <!-- End of Project Card Template -->
 
- <!-- Project 1 - Scholist -->
+ <!-- Projects Section - Fixed Layout -->
 <div style="
-  border: 1px solid #0077cc;
-  border-radius: 10px;
-  overflow: hidden;
-  background: white;
-  transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: transparent;
 ">
-  <a href="#">
-    <img src="./img/project/project01.png" alt="Scholist" style="
-      width: 100%;
-      height: 160px;
-      object-fit: cover;
-      border-bottom: 1px solid #0077cc;
-    ">
-  </a>
-  <div style="padding: 12px; flex: 1; display: flex; flex-direction: column; min-height: 0;">
-    <div style="flex: 1; overflow: hidden;">
-      <h3 style="
-        color: #0066cc;
-        margin: 0 0 5px 0;
-        font-size: 16px;
-        font-weight: 600;
-      ">Scholist</h3>
-      <p style="
-        color: #666;
-        margin: 0 0 15px 0;
-        font-size: 13px;
-        line-height: 1.4;
-        overflow: hidden;
-      ">A scholarship management system that parses blog content to identify deadlines, requirements, and application steps, then converts them into personalized checklist templates for students to track their application progress.</p>
-    </div>
-    <div style="margin-top: auto; flex-shrink: 0;">
-      <div style="
-        display: flex;
-        gap: 6px;
-        flex-wrap: wrap;
-        margin-bottom: 10px;
-        justify-content: flex-end;
+
+  <!-- Project 1 - Scholist -->
+  <div style="
+    border: 1px solid #0077cc;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  ">
+    <a href="#">
+      <img src="./img/project/project01.png" alt="Scholist" style="
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-bottom: 1px solid #0077cc;
       ">
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" height="20">
-        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" height="20">
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" height="20">
+    </a>
+    <div style="padding: 15px; flex: 1; display: flex; flex-direction: column;">
+      <div style="flex: 1;">
+        <h3 style="
+          color: #0066cc;
+          margin: 0 0 8px 0;
+          font-size: 18px;
+          font-weight: 600;
+        ">Scholist</h3>
+        <p style="
+          color: #666;
+          margin: 0 0 15px 0;
+          font-size: 14px;
+          line-height: 1.5;
+        ">A scholarship management system that parses blog content to identify deadlines, requirements, and application steps, then converts them into personalized checklist templates for students to track their application progress.</p>
       </div>
-      <div style="text-align: right;">
-        <span style="
-          display: inline-block;
-          background: #000;
-          color: white;
-          padding: 2px 8px;
-          border-radius: 4px;
-          font-size: 12px;
-          font-weight: 500;
-        ">🔜 Upcoming</span>
+      <div style="margin-top: auto;">
+        <div style="
+          display: flex;
+          gap: 8px;
+          flex-wrap: wrap;
+          margin-bottom: 12px;
+          justify-content: flex-start;
+        ">
+          <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" height="22">
+          <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" height="22">
+          <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" height="22">
+        </div>
+        <div>
+          <span style="
+            display: inline-block;
+            background: #000;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 500;
+          ">🔜 Upcoming</span>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Project 2 - Safari Pigura -->
-<div style="
-  border: 1px solid #0077cc;
-  border-radius: 10px;
-  overflow: hidden;
-  background: white;
-  transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-">
-  <a href="#">
-    <img src="./img/project/project02.png" alt="Safari Pigura" style="
-      width: 100%;
-      height: 160px;
-      object-fit: cover;
-      border-bottom: 1px solid #0077cc;
-    ">
-  </a>
-  <div style="padding: 12px; flex: 1; display: flex; flex-direction: column; min-height: 0;">
-    <div style="flex: 1; overflow: hidden;">
-      <h3 style="
-        color: #0066cc;
-        margin: 0 0 5px 0;
-        font-size: 16px;
-        font-weight: 600;
-      ">Safari Pigura Website</h3>
-      <p style="
-        color: #666;
-        margin: 0 0 15px 0;
-        font-size: 13px;
-        line-height: 1.4;
-        overflow: hidden;
-      ">Safari Pigura is an e-commerce platform for a woodcraft company specializing in handmade picture frames, wooden boxes, and ring displays. This digital showcase enables customers to browse and purchase artisanal wood products online, bringing traditional craftsmanship to the modern marketplace.</p>
-    </div>
-    <div style="margin-top: auto; flex-shrink: 0;">
-      <div style="
-        display: flex;
-        gap: 6px;
-        flex-wrap: wrap;
-        margin-bottom: 10px;
-        justify-content: flex-end;
+  <!-- Project 2 - Safari Pigura -->
+  <div style="
+    border: 1px solid #0077cc;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  ">
+    <a href="#">
+      <img src="./img/project/project02.png" alt="Safari Pigura" style="
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-bottom: 1px solid #0077cc;
       ">
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" height="20">
-        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" height="20">
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" height="20">
+    </a>
+    <div style="padding: 15px; flex: 1; display: flex; flex-direction: column;">
+      <div style="flex: 1;">
+        <h3 style="
+          color: #0066cc;
+          margin: 0 0 8px 0;
+          font-size: 18px;
+          font-weight: 600;
+        ">Safari Pigura Website</h3>
+        <p style="
+          color: #666;
+          margin: 0 0 15px 0;
+          font-size: 14px;
+          line-height: 1.5;
+        ">Safari Pigura is an e-commerce platform for a woodcraft company specializing in handmade picture frames, wooden boxes, and ring displays. This digital showcase enables customers to browse and purchase artisanal wood products online, bringing traditional craftsmanship to the modern marketplace.</p>
       </div>
-      <div style="text-align: right;">
-        <a href="https://safari-pigura.vercel.app/" style="
-          display: inline-block;
-          background: #000;
-          color: white;
-          padding: 2px 8px;
-          border-radius: 4px;
-          font-size: 12px;
-          font-weight: 500;
-          text-decoration: none;
-        ">Live Demo</a>
+      <div style="margin-top: auto;">
+        <div style="
+          display: flex;
+          gap: 8px;
+          flex-wrap: wrap;
+          margin-bottom: 12px;
+          justify-content: flex-start;
+        ">
+          <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" height="22">
+          <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" height="22">
+          <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" height="22">
+        </div>
+        <div>
+          <a href="https://safari-pigura.vercel.app/" style="
+            display: inline-block;
+            background: #000;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+          ">Live Demo</a>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- Project 3 - Sarana Camp -->
-<div style="
-  border: 1px solid #0077cc;
-  border-radius: 10px;
-  overflow: hidden;
-  background: white;
-  transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-">
-  <a href="#">
-    <img src="./img/project/project03.png" alt="Sarana Camp" style="
-      width: 100%;
-      height: 160px;
-      object-fit: cover;
-      border-bottom: 1px solid #0077cc;
-    ">
-  </a>
-  <div style="padding: 12px; flex: 1; display: flex; flex-direction: column; min-height: 0;">
-    <div style="flex: 1; overflow: hidden;">
-      <h3 style="
-        color: #0066cc;
-        margin: 0 0 5px 0;
-        font-size: 16px;
-        font-weight: 600;
-      ">Sarana Camp</h3>
-      <p style="
-        color: #666;
-        margin: 0 0 15px 0;
-        font-size: 13px;
-        line-height: 1.4;
-        overflow: hidden;
-      ">As Front-End Developer, I built an interactive landing page featuring event CTAs, bootcamp schedules, and a digital certificate retrieval system — enhancing user engagement and streamlined access to credentials.</p>
-    </div>
-    <div style="margin-top: auto; flex-shrink: 0;">
-      <div style="
-        display: flex;
-        gap: 6px;
-        flex-wrap: wrap;
-        margin-bottom: 10px;
-        justify-content: flex-end;
+  <!-- Project 3 - Sarana Camp -->
+  <div style="
+    border: 1px solid #0077cc;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  ">
+    <a href="#">
+      <img src="./img/project/project03.png" alt="Sarana Camp" style="
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-bottom: 1px solid #0077cc;
       ">
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" height="20">
-        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" height="20">
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" height="20">
+    </a>
+    <div style="padding: 15px; flex: 1; display: flex; flex-direction: column;">
+      <div style="flex: 1;">
+        <h3 style="
+          color: #0066cc;
+          margin: 0 0 8px 0;
+          font-size: 18px;
+          font-weight: 600;
+        ">Sarana Camp</h3>
+        <p style="
+          color: #666;
+          margin: 0 0 15px 0;
+          font-size: 14px;
+          line-height: 1.5;
+        ">As Front-End Developer, I built an interactive landing page featuring event CTAs, bootcamp schedules, and a digital certificate retrieval system — enhancing user engagement and streamlined access to credentials.</p>
       </div>
-      <div style="text-align: right;">
-        <a href="https://bootcamp.sarana.ai" style="
-          display: inline-block;
-          background: #000;
-          color: white;
-          padding: 2px 8px;
-          border-radius: 4px;
-          font-size: 12px;
-          font-weight: 500;
-          text-decoration: none;
-        ">Live Demo</a>
+      <div style="margin-top: auto;">
+        <div style="
+          display: flex;
+          gap: 8px;
+          flex-wrap: wrap;
+          margin-bottom: 12px;
+          justify-content: flex-start;
+        ">
+          <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" height="22">
+          <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" height="22">
+          <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" height="22">
+        </div>
+        <div>
+          <a href="https://bootcamp.sarana.ai" style="
+            display: inline-block;
+            background: #000;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+          ">Live Demo</a>
+        </div>
       </div>
     </div>
   </div>
