@@ -419,10 +419,6 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/rakaa0-0/rakaa0-0/output/snake.svg" alt="Snake animation" />
-
-###
-
 <h2 align="center" style="font-family: 'Bruno Ace SC', cursive; color: #0099ff; letter-spacing: 2px;">
   📊 𝓖𝓲𝓽𝓗𝓾𝓫 𝓢𝓽𝓪𝓽𝓼 📊
 </h2>
