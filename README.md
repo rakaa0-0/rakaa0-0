@@ -233,13 +233,13 @@
  <!-- Projects Section - Fixed Layout -->
 <div style="
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 25px;
   padding: 20px;
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  background: transparent;
 ">
+
 
   <!-- Project 1 - Scholist -->
   <div style="
