@@ -112,36 +112,68 @@
 
 <br>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 20px; justify-items: center;">
-
-  <!-- Frontend -->
-  <div style="text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'; this.style.filter='drop-shadow(0 0 10px #00AAFF)'" onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts" style="height: 40px; margin-bottom: 8px;"/>
-    <h3 style="color: #00AAFF; margin: 5px 0;">Frontend</h3>
-    <p style="margin: 0; color:rgb(105, 105, 105);">HTML5, CSS3, JavaScript, TypeScript</p>
-  </div>
-
-  <!-- Frameworks -->
-  <div style="text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'; this.style.filter='drop-shadow(0 0 10px rgb(105, 105, 105))'" onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap" style="height: 40px; margin-bottom: 8px;"/>
-    <h3 style="color: #7F5AB6; margin: 5px 0;">Frameworks</h3>
-    <p style="margin: 0; color: rgb(105, 105, 105);">React, Next.js, Tailwind, Bootstrap</p>
-  </div>
-
-  <!-- Backend -->
-  <div style="text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'; this.style.filter='drop-shadow(0 0 10px #339933)'" onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
-    <img src="https://skillicons.dev/icons?i=nodejs,nestjs" style="height: 40px; margin-bottom: 8px;"/>
-    <h3 style="color: #339933; margin: 5px 0;">Backend</h3>
-    <p style="margin: 0; color: rgb(105, 105, 105);">Node.js, Nest.js</p>
-  </div>
-
-  <!-- Tools -->
-  <div style="text-align: center; transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'; this.style.filter='drop-shadow(0 0 10px #FF6B6B)'" onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
-    <img src="https://skillicons.dev/icons?i=git,github,vscode,figma" style="height: 40px; margin-bottom: 8px;"/>
-    <h3 style="color: #FF6B6B; margin: 5px 0;">Tools</h3>
-    <p style="margin: 0; color: rgb(105, 105, 105);">Git, GitHub, VSCode, Figma</p>
-  </div>
-
+<div align="center">
+  <table style="
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 20px;
+    margin: 0 auto;
+  ">
+    <tr>
+      <!-- Frontend -->
+      <td style="
+        text-align: center;
+        transition: all 0.3s ease;
+        padding: 20px;
+        background: rgba(0,170,255,0.05);
+        border-radius: 10px;
+      " onmouseover="this.style.transform='scale(1.05)'; this.style.filter='drop-shadow(0 0 10px #00AAFF)'" 
+      onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
+        <img src="https://skillicons.dev/icons?i=html,css,js,ts" style="height: 40px; margin-bottom: 8px;"/>
+        <h3 style="color: #00AAFF; margin: 5px 0;">Frontend</h3>
+        <p style="margin: 0; color:rgb(105, 105, 105);">HTML5, CSS3, JavaScript, TypeScript</p>
+      </td>
+      <!-- Frameworks -->
+      <td style="
+        text-align: center;
+        transition: all 0.3s ease;
+        padding: 20px;
+        background: rgba(127,90,182,0.05);
+        border-radius: 10px;
+      " onmouseover="this.style.transform='scale(1.05)'; this.style.filter='drop-shadow(0 0 10px #7F5AB6)'" 
+      onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
+        <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap" style="height: 40px; margin-bottom: 8px;"/>
+        <h3 style="color: #7F5AB6; margin: 5px 0;">Frameworks</h3>
+        <p style="margin: 0; color: rgb(105, 105, 105);">React, Next.js, Tailwind, Bootstrap</p>
+      </td>
+      <!-- Backend -->
+      <td style="
+        text-align: center;
+        transition: all 0.3s ease;
+        padding: 20px;
+        background: rgba(51,153,51,0.05);
+        border-radius: 10px;
+      " onmouseover="this.style.transform='scale(1.05)'; this.style.filter='drop-shadow(0 0 10px #339933)'" 
+      onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
+        <img src="https://skillicons.dev/icons?i=nodejs,nestjs" style="height: 40px; margin-bottom: 8px;"/>
+        <h3 style="color: #339933; margin: 5px 0;">Backend</h3>
+        <p style="margin: 0; color: rgb(105, 105, 105);">Node.js, Nest.js</p>
+      </td>
+      <!-- Tools -->
+      <td style="
+        text-align: center;
+        transition: all 0.3s ease;
+        padding: 20px;
+        background: rgba(255,107,107,0.05);
+        border-radius: 10px;
+      " onmouseover="this.style.transform='scale(1.05)'; this.style.filter='drop-shadow(0 0 10px #FF6B6B)'" 
+      onmouseout="this.style.transform='scale(1)'; this.style.filter='none'">
+        <img src="https://skillicons.dev/icons?i=git,github,vscode,figma" style="height: 40px; margin-bottom: 8px;"/>
+        <h3 style="color: #FF6B6B; margin: 5px 0;">Tools</h3>
+        <p style="margin: 0; color: rgb(105, 105, 105);">Git, GitHub, VSCode, Figma</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br>
