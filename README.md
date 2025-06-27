@@ -233,7 +233,7 @@
  <!-- Projects Section - Fixed Layout -->
 <div style="
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
   gap: 25px;
   padding: 20px;
   max-width: 1200px;
