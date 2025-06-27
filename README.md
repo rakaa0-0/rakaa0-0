@@ -177,58 +177,8 @@
   ~ 💎 𝓡𝓪𝓴𝓱𝓪'𝓼 𝓟𝓻𝓸𝓳𝓮𝓬𝓽𝓼 💎 ~
 </h2>
 
-<div style="
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 25px;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-">
-<!--
-   <div style="
-    border: 1px solid #0077cc;
-    border-radius: 10px;
-    overflow: hidden;
-    background: white;
-    transition: all 0.3s ease;
-  ">
-    <a href="PROJECT_LINK">
-      <img src="IMAGE_PATH" alt="PROJECT_NAME" style="
-        width: 100%;
-        height: 160px;
-        object-fit: cover;
-        border-bottom: 1px solid #0077cc;
-      ">
-    </a>
-    <div style="padding: 12px;">
-      <h3 style="
-        color: #0066cc;
-        margin: 0 0 5px 0;
-        font-size: 16px;
-        font-weight: 600;
-      ">PROJECT_TITLE</h3>
-      <p style="
-        color: #666;
-        margin: 0 0 10px 0;
-        font-size: 13px;
-      ">PROJECT_DESCRIPTION</p>
-      <div style="
-        display: flex;
-        gap: 6px;
-        flex-wrap: wrap;
-        margin-bottom: 10px;
-      ">
-        <img src="https://img.shields.io/badge/TECH_NAME-HEX_COLOR?style=flat-square&logo=TECH_LOGO&logoColor=white" alt="TECH_NAME" height="20">
-      </div>
-      <div>
-        <a href="DEMO_LINK">
-          <img src="https://img.shields.io/badge/▶_Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live Demo" height="20">
-        </a>
-      </div>
-    </div>
-  </div> -->
-  <!-- End of Project Card Template -->
+  <!-- Projects Section  -->
+  <!-- End -->
 
  <!-- Projects Section - Fixed Layout -->
 <div style="
@@ -429,11 +379,6 @@
     </div>
   </div>
 </div>
-
-</div>
-
-  <!-- Add new projects here by copying the template -->
-
 </div>
 
 <h2 align="center">            ~ ᴍʏ ᴄᴏɴᴛʀɪʙᴜᴛɪᴏɴꜱ ɢᴀᴍᴇ🐍🎮 ~</h2>
